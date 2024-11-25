@@ -79,7 +79,7 @@ The points awarded for a receipt are calculated based on the following rules:
 
 You can test the API using **curl**:
 
-# 1. **Test Submitting a Receipt**
+## 1. **Test Submitting a Receipt**
 ```
 curl -X POST http://localhost:8080/receipts/process \
   -H "Content-Type: application/json" \
@@ -94,8 +94,8 @@ curl -X POST http://localhost:8080/receipts/process \
     "total": "29.98"
   }'
 ```
-# 2. **Test Retrieving Points for a Receipt**
+## 2. **Test Retrieving Points for a Receipt**
 
-# Replace {id} with the actual receipt ID returned from the previous request.
+### Replace {id} with the actual receipt ID returned from the previous request.
 ```curl http://localhost:8080/receipts/{id}/points```
 
