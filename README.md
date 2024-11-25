@@ -75,11 +75,10 @@ The points awarded for a receipt are calculated based on the following rules:
 6. **Odd Day of Purchase**: 6 points if the purchase date is on an odd day.
 7. **Afternoon Purchase**: 10 points if the purchase time is between 2:00 PM and 4:00 PM.
 
-## Testing
-
 ## Execute the script and start the local server
 ```go run backend.go```
 
+## Testing
 
 You can test the API using **curl**:
 
