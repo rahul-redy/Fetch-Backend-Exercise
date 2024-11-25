@@ -77,6 +77,10 @@ The points awarded for a receipt are calculated based on the following rules:
 
 ## Testing
 
+## Execute the script and start the local server
+```go run backend.go```
+
+
 You can test the API using **curl**:
 
 ## 1. **Test Submitting a Receipt**
